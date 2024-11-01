@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.2/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.17.2/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.17.2/dist/index.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"文件加解密","children":[{"content":"图形界面","children":[{"content":"sdl2图形库","children":[{"content":"模拟点击操作","children":[{"content":"判断位置","children":[],"payload":{"lines":"4,5"}},{"content":"getmousestate获取鼠标状态","children":[],"payload":{"lines":"5,6"}}],"payload":{"lines":"3,4"}},{"content":"按钮状态","children":[{"content":"photoshop绘制ui","children":[],"payload":{"lines":"7,8"}},{"content":"判断按钮状态渲染材质","children":[],"payload":{"lines":"8,9"}},{"content":"每个按钮hold,hover,normal状态切换","children":[],"payload":{"lines":"9,10"}},{"content":"实现动画效果","children":[],"payload":{"lines":"10,11"}}],"payload":{"lines":"6,7"}},{"content":"图形库学习","children":[{"content":"阅读官方文档","children":[],"payload":{"lines":"12,13"}},{"content":"学习相关实例","children":[],"payload":{"lines":"13,14"}}],"payload":{"lines":"11,12"}},{"content":"参考上一个2D游戏项目","children":[],"payload":{"lines":"14,15"}}],"payload":{"lines":"2,3"}}],"payload":{"lines":"1,2"}},{"content":"功能实现","children":[{"content":"加密","children":[{"content":"凯撒","children":[],"payload":{"lines":"17,18"}},{"content":"弗吉尼亚","children":[],"payload":{"lines":"18,19"}},{"content":"异或","children":[],"payload":{"lines":"19,20"}},{"content":"字符串","children":[],"payload":{"lines":"20,21"}}],"payload":{"lines":"16,17"}},{"content":"解密","children":[{"content":"凯撒","children":[],"payload":{"lines":"22,23"}},{"content":"弗吉尼亚","children":[],"payload":{"lines":"23,24"}},{"content":"异或","children":[],"payload":{"lines":"24,25"}},{"content":"字符串","children":[],"payload":{"lines":"25,26"}}],"payload":{"lines":"21,22"}}],"payload":{"lines":"15,16"}},{"content":"文件打开操作","children":[{"content":"windows库","children":[],"payload":{"lines":"27,28"}},{"content":"commdlg.h","children":[],"payload":{"lines":"28,29"}},{"content":"openfilename结构体配置打开文件框","children":[],"payload":{"lines":"29,30"}},{"content":"利用字符数组存储文件路径并赋值","children":[],"payload":{"lines":"30,31"}}],"payload":{"lines":"26,27"}}],"payload":{"lines":"0,1"}},{})</script>
+</body>
+</html>

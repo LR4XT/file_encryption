@@ -1,0 +1,16 @@
+﻿  encode.c
+D:\working directory\file_encryption\encode.c(41,11): warning C4101: “path”: 未引用的局部变量
+D:\working directory\file_encryption\encode.c(299,19): warning C4133: “=”: 从“char *”到“LPWSTR”的类型不兼容
+D:\working directory\file_encryption\encode.c(302,21): warning C4133: “=”: 从“char [20]”到“LPCWSTR”的类型不兼容
+D:\working directory\file_encryption\encode.c(325,45): warning C4244: “=”: 从“WCHAR”转换到“char”，可能丢失数据
+D:\working directory\file_encryption\encode.c(283,10): warning C4101: “choice”: 未引用的局部变量
+D:\working directory\file_encryption\encode.c(285,10): warning C4101: “ckey”: 未引用的局部变量
+D:\working directory\file_encryption\encode.c(293,12): warning C4101: “hf”: 未引用的局部变量
+D:\working directory\file_encryption\encode.c(287,20): warning C4101: “func”: 未引用的局部变量
+D:\working directory\file_encryption\encode.c(284,9): warning C4101: “nkey”: 未引用的局部变量
+D:\working directory\file_encryption\encode.c(286,9): warning C4101: “method”: 未引用的局部变量
+D:\working directory\file_encryption\encode.c(530,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\working directory\file_encryption\encode.c(582,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\working directory\file_encryption\encode.c(632,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\working directory\file_encryption\encode.c(684,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  file_encryption.vcxproj -> D:\working directory\file_encryption\x64\Debug\file_encryption.exe
