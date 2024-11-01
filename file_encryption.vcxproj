@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>D:\working directory\file_encryption\SDL2-2.26.0-allinone\include;D:\working directory\file_encryption\nativefiledialog-release_116\src\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\working directory\file_encryption\SDL2-2.26.0-allinone\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>SDL2-2.26.0-allinone\include;D:\working directory\file_encryption\nativefiledialog-release_116\src\include;$(IncludePath)</IncludePath>
+    <LibraryPath>SDL2-2.26.0-allinone\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -113,7 +113,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\working directory\file_encryption\SDL2-2.26.0-allinone\lib\x64;D:\working directory\file_encryption\nativefiledialog-release_116\build\lib\Debug\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>SDL2-2.26.0-allinone\lib\x64;D:\working directory\file_encryption\nativefiledialog-release_116\build\lib\Debug\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;SDL2main.lib;SDL2test.lib;Comdlg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
